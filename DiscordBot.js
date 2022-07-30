@@ -1,7 +1,7 @@
 const twitterBot = require('./TwitterMonitor.js');
 const { Client, Intents, MessageEmbed } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-const TOKEN = 'ODcxOTI4Nzg2NzU1NjUzNjYy.YQic9g.lKe_5ZGVMmGnq4Fe44vcGX8gVNo';
+const TOKEN = 'ODcxOTI4Nzg2NzU1NjUzNjYy.Gdmkb_.V4XsZl1b20kJl7G51BGtLN6Y2qHkJfnEKsEyrc';
 
 client.login(TOKEN);
 
